@@ -1,7 +1,13 @@
 import "./Home.css";
-
+import SimpleSlider from "../components/CardCarousel";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <SimpleSlider />
+    </div>
+  );
 }
 
 export default Home;

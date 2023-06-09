@@ -1,0 +1,23 @@
+.container{
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.custom-dots li button:before {
+    font-size: 1000px;
+    /* Ajusta el tamaño deseado */
+}

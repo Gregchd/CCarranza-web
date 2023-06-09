@@ -32,9 +32,9 @@ export default App;
 function Navigation() {
   return (
     <nav className="navbar">
-      <a href="#">
+      <Link to="/">
         <img src={logo} alt="logo" height={"70px"} />
-      </a>
+      </Link>
 
       <ul className="navbar-links">
         <li>
