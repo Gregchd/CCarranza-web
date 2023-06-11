@@ -19,7 +19,6 @@ render(){
     </div>
       <div class="foto">
         <img alt="Foto de los miembros de la empresa" src={repe}></img>
-        <div class="circulo"></div>
       </div>
     </section>
   );
